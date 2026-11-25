@@ -582,10 +582,10 @@ fieldset {
   border: 1px solid var(--line);
   background: #f7f8f4;
   border-radius: 9px;
-  padding: 24px;
+  padding: 16px 24px;
   position: relative;
   overflow: hidden;
-  min-height: 182px;
+  min-height: 150px;
   transition: border-color 0.2s;
 }
 .category-card:hover {
@@ -614,11 +614,11 @@ fieldset {
   gap: 10px;
   font-size: 10px;
   font-weight: 500;
-  margin-top: 23px;
+  margin-top: 12px;
 }
 .category-card .pipe-art {
   width: 62%;
-  height: 170px;
+  height: 140px;
   position: absolute;
   left: -42px;
   bottom: -7px;
@@ -1887,7 +1887,7 @@ fieldset {
     font-size: 9px;
   }
   .category-card {
-    padding: 18px;
+    padding: 14px 18px;
   }
   .category-card h3 {
     font-size: 16px;
@@ -2108,8 +2108,8 @@ fieldset {
     gap: 10px;
   }
   .category-card {
-    min-height: 173px;
-    padding: 17px 14px;
+    min-height: 140px;
+    padding: 12px 14px;
   }
   .category-card h3 {
     font-size: 14px;
@@ -2119,14 +2119,14 @@ fieldset {
   }
   .category-card .pipe-art {
     width: 90%;
-    height: 130px;
+    height: 115px;
     bottom: -25px;
     left: -35px;
     opacity: 0.6;
   }
   .category-action {
     font-size: 9px;
-    margin-top: 35px;
+    margin-top: 18px;
   }
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2399,8 +2399,8 @@ fieldset {
     gap: 10px;
   }
   .category-card {
-    min-height: 150px;
-    padding: 19px 23px;
+    min-height: 128px;
+    padding: 10px 23px;
   }
   .category-card h3 {
     font-size: 18px;
@@ -2411,12 +2411,12 @@ fieldset {
   .category-card .pipe-art {
     left: -8px;
     width: 52%;
-    height: 160px;
+    height: 130px;
     bottom: -8px;
     opacity: 1;
   }
   .category-action {
-    margin-top: 18px;
+    margin-top: 4px;
     font-size: 10px;
   }
   .sample-note {
